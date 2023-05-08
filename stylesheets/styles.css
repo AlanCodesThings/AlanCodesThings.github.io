@@ -4,8 +4,13 @@
     font-size: 62.5%;
     scroll-behavior: smooth;
     color: white;
+   
   }
   
+html{
+  min-height: 100%;
+}
+
   body{
     margin: 0;
   }
@@ -42,9 +47,11 @@
   
   main{
     width: 100%;
+    min-height: 100vh;
     margin-top: 3%;
     display: flex;
     flex-direction: column;
+    
   }
   
   #welcome-section{
@@ -64,11 +71,11 @@
   #byline{
     font-size: 3rem;
     font-style: italic;
+    margin-top: 1%;
   }
   
   #projects{
     width: 100%;
-    height: 160vh;
     background-color: #23395d;
     margin: 0;
   }
@@ -107,9 +114,13 @@
     height: 500px;
    
   }
+
+  #flexgrow{
+    flex-grow: 1;
+  }
   
   #connect-section{
-    height: 30%;
+    height: 20%;
     width: 100%;
     background-color: #b8621b;
     display: block;
@@ -146,5 +157,54 @@
     #large-tile{
       height: 400px;
   
+    }
+    #project-tile{
+      height: 250px;
+    }
+    * {
+      font-size: 50%;
+    
+    }
+  }
+
+  @media only screen and (max-width: 720px){
+    #large-tile{
+      height: 300px;
+  
+    }
+    #project-tile{
+      height: 1px;
+    }
+    * {
+      font-size: 40%;
+    
+    }
+  }
+
+  @media only screen and (max-width: 480px){
+    #large-tile{
+      height: 200px;
+  
+    }
+    #project-tile{
+      height: 150px;
+    }
+    * {
+      font-size: 30%;
+    
+    }
+  }
+
+  @media only screen and (max-width: 360px){
+    #large-tile{
+      height: 100px;
+  
+    }
+    #project-tile{
+      height: 1px;
+    }
+    * {
+      font-size: 20%;
+    
     }
   }
