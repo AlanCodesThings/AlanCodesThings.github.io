@@ -180,10 +180,7 @@ html{
       height: 400px;
   
     }
-    #extra-large-tile{
-      width: 1px;
-  
-    }
+    
     .project-tile{
       height: 250px;
     }
@@ -198,10 +195,7 @@ html{
       height: 300px;
   
     }
-    #extra-large-tile{
-      width: 1px;
-  
-    }
+   
     .project-tile{
       height: 200px;
     }
@@ -216,10 +210,7 @@ html{
       height: 200px;
   
     }
-    #extra-large-tile{
-      width: 1px;
-  
-    }
+   
     .project-tile{
       height: 150px;
     }
@@ -234,10 +225,7 @@ html{
       height: 100px;
   
     }
-    #extra-large-tile{
-      width: 210px;
-  
-    }
+   
     .project-tile{
       height: 100px;
     }
