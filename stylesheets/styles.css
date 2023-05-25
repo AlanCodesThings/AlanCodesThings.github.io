@@ -18,17 +18,17 @@ html{
   
   header{
     width: 100%;
-    min-height: 10%;
+    min-height: 7%;
     font-size:12rem;
     position: fixed;
     top:0;
     left:0;
-    background-color: #10192a;
+    background-color: #181818;
     z-index: 1;
   }
   
   header navbar ul{
-    
+    margin-left: 2%;
     width: 40%;
     display: flex;
     justify-content: space-evenly;
@@ -54,7 +54,7 @@ html{
     display: flex;
     flex-direction: column;
     position:absolute;
-    top: 10%;
+    top: 7%;
     margin: 0;
     overflow-x: hidden;
     
@@ -62,7 +62,7 @@ html{
   
   #welcome-section{
     height: 80vh;
-    background-color: #152238;
+    background-color: #181818;
     background-image: url(../images/computer2.png);
     background-size:100% 100%;
     margin: 0;
@@ -73,22 +73,23 @@ html{
     top: 25%;
     text-align: center;
     font-size: 15rem;
-    color: #23395d;
+    color: #181818;
   }
   
   #welcome{
-    color: #23395d;
+    color: #181818;
   }
   #byline{
     font-size: 3rem;
     font-style: italic;
     margin-top: 1%;
-    color: #23395d;
+    color: #181818;
   }
   
   #projects{
     width: 100%;
-    background-color: #23395d;
+    background-color: #181818;
+    
     
     margin: 0;
     padding-bottom: 5%;
@@ -99,7 +100,15 @@ html{
   #project-text{
     padding-top: 4%;
     text-align: center;
-    font-size: 6rem;
+    font-size: 4rem;
+    color: #f5f5f5;
+  }
+
+  #divider{
+    margin: auto;
+    margin-top: 3%;
+    width: 20%;
+    border-top: solid 4px #f5f5f5;
   }
   
   #proj-container{
@@ -115,7 +124,7 @@ html{
   }
   
   .project-tile{
-    height: 300px;
+    height: 250px;
   }
   
   .proj-div{
@@ -126,9 +135,10 @@ html{
   
   .steam-text{
     font-style: italic;
+    color: #f5f5f5;
   }
   #large-tile{
-    height: 500px;
+    height: 450px;
    
   }
 
@@ -140,7 +150,7 @@ html{
     min-height: 20%;
     padding-bottom: 1%; 
     width: 100%;
-    background-color: #2a4470;
+    background-color: #3e3e3e;
     display: block;
     margin: 0;
   }
@@ -169,6 +179,7 @@ html{
     height: 6vh;
     padding-top: 1%;
     padding-bottom: 1%;
+    
   }
 
   .big-logo{
@@ -202,6 +213,14 @@ html{
     * {
       font-size: 40%;
     
+    }
+
+    .social-logo{
+      height: 3vh;
+    }
+
+    .big-logo{
+      height: 2vh;
     }
   }
 
