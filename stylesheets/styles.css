@@ -29,13 +29,14 @@ html{
   
   header navbar ul{
     margin-left: 2%;
-    width: 40%;
+    width: 95%;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
   }
   header navbar ul li {
     margin-right: 5%;
+   
   }
   header navbar ul li a{
     text-decoration: none;
