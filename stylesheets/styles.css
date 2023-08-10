@@ -138,6 +138,10 @@ html{
     font-style: italic;
     color: #f5f5f5;
   }
+  
+  .link-text{
+    font-size: 1.8rem;
+  }
   #large-tile{
     height: 450px;
    
